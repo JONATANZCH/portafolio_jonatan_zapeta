@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "compat-api/css": [
+      "off",
+      {
+        "ignore": [
+          "scroll-snap-stop"
+        ]
+      }
+    ],
+    "axe/forms": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 106",
+    "not firefox <= 106",
+    "not ios_saf <= 14.8",
+    "not and_ff <= 106",
+    "not firefox <= 106",
+    "not ios_saf <= 14.8",
+    "not and_ff <= 106",
+    "not firefox <= 106",
+    "not ios_saf <= 14.8"
+  ]
+}
